@@ -1,0 +1,58 @@
+.colour-picker-container {
+    width: 500px;
+    height: 125px;
+    background-color: #272B30;
+    border: solid black 2px;
+    margin-bottom: 2vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.colour-picker-header {
+    color: #eeeeee;
+    background-color: #393f47;
+    width: 496px;
+    height: 50px;
+    border-bottom: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.colour-picker-colours {
+    width: 496px;
+    height: 71px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.colour-picker-colours button {
+    width: 85px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.colour-picker-blue {
+    background-color: #279AF1;
+}
+
+.colour-picker-pink {
+    background-color: #FF729F;
+}
+
+.colour-picker-yellow {
+    background-color: #FBFF12;
+}
+
+.colour-picker-green {
+    background-color: #9FD356;
+}
+
+.colour-picker-cyan {
+    background-color: #42F2F7;
+}
