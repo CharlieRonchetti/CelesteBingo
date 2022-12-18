@@ -4,11 +4,11 @@ import { useState } from 'react'
 import Row from './Row'
 
 const Grid = ({ setPlayerScore, playerScore, playerColour }) => {
-    const objectives = [["core blue heart", "get a 1up in 2a", "all berries in 1a start (6)", "complete shrine without dashing", "old site blue heart"],
-                    ["core blue heart", "get a 1up in 2a", "all berries in 1a start (6)", "complete shrine without dashing", "old site blue heart"],
-                    ["core blue heart", "get a 1up in 2a", "all berries in 1a start (6)", "complete shrine without dashing", "old site blue heart"],
-                    ["core blue heart", "get a 1up in 2a", "all berries in 1a start (6)", "complete shrine without dashing", "old site blue heart"],
-                    ["Mess Order: Chests \u2193 Towels \u2192 Books \u2191", "Switch to Ice on the right of Into the Core", "Reach the Bird\u0027s Nest in Epilogue", "complete shrine without dashing", "old site blue heart"]];
+    const objectives = [["Use 2 Binoculars in 4 Chapters", "Grabless 5A", "5 Winged Berries", "All Berries in Awake (1)", "2 Blue and 2 Red Hearts"],
+                    ["Get 5 Berries in PICO-8", "All Berries in Shrine (9)", "Blue and Red Heart in Golden Ridge", "All Flags in 3000M", "Mess Order: Chests \u2193 Towels \u2192 Books \u2191"],
+                    ["Grabless 6A", "Golden Ridge Blue Heart", "Get a 1-Up in 1A", "Get 2 Keys in Power Source", "6 Winged Berries"],
+                    ["10 Berries in 3A", "8 Winged Berries", "4 Gems in The Summit", "Grabless Huge Mess", "Get a 1-Up in 4A"],
+                    ["Golden Ridge Cassette", "5 Berries in 3 Chapters", "Reflection Blue Heart", "Get 15 Berries in PICO-8", "Reach the Bird\u0027s Nest in Epilogue"]];
 
     const [revealedBoard, setRevealedBoard] = useState(false)
 

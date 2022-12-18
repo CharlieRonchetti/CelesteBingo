@@ -1,3 +1,58 @@
 .chatbox-container {
+    width: 350px;
+    height: 721px;
+    background-color: #272B30;
+    color: #eeeeee;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.chatbox-header {
+    background-color: #393f47;
+    width: 346px;
+    height: 50px;
+    border-bottom: solid black 2px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chatbox-message-container {
+    width: 316px;
+    height: 582px;
+    background-color: cyan;
+    margin: 15px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: #363a41;
+}
+
+.chatbox-input-container {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    gap: 6px;
+}
+
+.chatbox-input {
+    width: 210px;
+    height: 40px;
+    background-color: #363a41;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.chatbox-submit {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #363a41;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+.chatbox-submit:hover {
+    background-color: black;
 }
